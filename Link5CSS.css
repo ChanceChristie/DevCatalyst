@@ -1,0 +1,722 @@
+/* --- Legit Areas --- */
+
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 38px;
+  box-sizing: border-box;
+}
+
+body {
+	margin-bottom: 0px;
+	font-family: 'Bungee', cursive;
+	background: url("Photoscopy/wall.jpg") repeat center;
+	background-size: 100%;
+	background-color: #800000;
+}
+
+
+
+h1 {
+	font-size: 60px;
+	padding-top: 0px;
+	margin-bottom: 20px;
+	margin-right: 100px;
+	margin-left: 0px;
+	margin-top: 0px;
+	text-align: center;
+	height: 100%;
+	width: 100%;
+	
+}
+
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin: 0 0 100px; /* bottom = footer height */
+}
+
+/* --- Classes --- */
+
+
+
+.MenuBar {
+	color: white;
+	border-style: none;
+	padding-top: 0px;
+	padding-left: 0px;
+	float: left;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+
+.Logo {
+	margin-top: -10px;
+	background-color: gray;
+	border-radius: 0px 40px 40px 0px;
+	border-style: solid; 
+	float: left;
+	width: 150px;
+	height: 150px;
+}
+
+.header,
+.BottomHeading {
+    background: #D3D3D3; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#D3D3D3, #222222); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#D3D3D3, #222222); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#D3D3D3, #222222); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#D3D3D3, #222222); /* Standard syntax */
+}
+
+.header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 20px solid #8B0000;
+}
+
+body {
+	margin-bottom: 0px;
+	font-family: 'Bungee', cursive;
+	background: url("Photos/wall.jpg") no-repeat;
+	background-size: 150%;
+	background-color: #800000;
+}
+
+.footer {
+    border-top: 20px solid #8B0000;
+}
+
+
+.footer {
+	margin-bottom: -50px;
+	margin-top: 0px;
+    position: absolute;
+    left: 0;
+    height: 100px;
+    width: 100%;
+}
+
+h3 {
+margin-left: 20px;
+float: left;
+font-size: 20px;
+
+}
+
+.footer {
+	 background: #22222; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#222222, #D3D3D3,); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#222222, #D3D3D3); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#222222, #D3D3D3); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#222222, #D3D3D3); /* Standard syntax */
+	
+}
+
+.BottomHeading {
+	font-size: 20px;
+	text-align: center;
+	background-color: red;
+}
+
+title {
+	<img class="Logo" src="Photos/AsahiLogo.png">
+}
+
+/* --- links --- */
+
+.links {
+	
+	font-size: 30px;
+	line-height: 0px;
+	margin-right: none;
+	font-family: 'Bungee', cursive;
+	text-decoration: none;
+	text-align: auto;
+	background-color: transparent;
+	border-top-style: dotted;
+	border-right-style: solid;
+	border-bottom-style: dotted;
+	border-left-style: solid;
+}
+
+
+.links {
+	padding-left: -20px;
+	border-style: none;
+	list-style-type: none;
+	margin-right: 0px;
+	padding: 10px;
+	text-align: center;
+	margin-top: 0px;
+}
+	
+
+.links a {
+	text-decoration: none;
+	font-family: 'Bungee', cursive;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: normal;
+	letter-spacing: normal;
+	line-height: 1.3em;
+	color: #596365;
+}
+
+.links a:hover {
+	text-decoration: none;
+	font-family: 'Bungee', cursive;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: normal;
+	letter-spacing: normal;
+	line-height: 1.3em;
+	color: #000;
+}
+
+
+/* ---- buttons ----*/
+
+
+.button1 {
+	font-family: 'Bungee', cursive;
+	color: #8B0000;
+	padding-right: 20px;
+	padding-right: 20px;
+	background: center;
+	background-repeat: no-repeat;
+	text-align: center;
+	background-size: 80%;
+	font-size: 15px;
+	background-image: url("Photoscopy/FoodSushi.png");
+	box-shadow: 5px 5px 1px #000;
+	margin-right: 0px;
+	padding: 0px;
+	background-color: #778899;
+	height: 75px;
+	width: 155px;
+}
+
+.button2 {
+	font-family: 'Bungee', cursive;
+	color: #8B0000;
+	padding-right: 20px;
+	background: center;
+	background-repeat: no-repeat;
+	text-align: center;
+	background-size: 80%;
+	font-size: 15px;
+	background-image: url("Photoscopy/Menu.png");
+	box-shadow: 5px 5px 1px #000;
+	margin-right: 0px;
+	padding: 0px;
+	background-color: #778899;
+	height: 75px;
+	width: 155px;
+}
+
+.button3 {
+	font-family: 'Bungee', cursive;
+	color: #8B0000;
+	padding-right: 20px;
+	background: center;
+	background-repeat: no-repeat;
+	text-align: center;
+	background-size: 80%;
+	font-size: 15px;
+	background-image: url("Photoscopy/Res1.png");
+	box-shadow: 5px 5px 1px #000;
+	margin-right: 0px;
+	padding: 0px;
+	background-color: #778899;
+	height: 75px;
+	width: 155px;
+}
+
+.button4 {
+	font-family: 'Bungee', cursive;
+	color: #8B0000;
+	padding-right: 20px;
+	background: center;
+	background-repeat: no-repeat;
+	text-align: center;
+	font-size: 15px;
+	background-image: url("Photoscopy/Contact.png");
+	background-size: 80%;
+	box-shadow: 5px 5px 1px #000;
+	margin-right: 0px;
+	padding: 0px;
+	background-color: #778899;
+	height: 75px;
+	width: 155px;
+}
+
+.button5 {
+	font-family: 'Bungee', cursive;
+	color: #8B0000;
+	padding-right: 20px;
+	background: center;
+	background-repeat: no-repeat;
+	text-align: center;
+	background-size: 80%;
+	font-size: 15px;
+	background-image: url("Photoscopy/AsahiHome.png");
+	box-shadow: 5px 5px 1px #000;
+	margin-right: 0px;
+	padding: 0px;
+	background-color: #778899;
+	height: 75px;
+	width: 155px;
+}
+
+/* --- Media Queries --- */
+
+@media (max-width: 1100px) {
+	body {
+		transition: 1s;
+		background: royalblue;
+ }
+	.links {
+		margin-top: ;
+		  -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    	-moz-column-count: 1; /* Firefox */
+    column-count: 1;
+ }
+	.Logo {
+	width: 125px;
+	height: 125px;
+ }
+	h2 {
+	font-size: 50px;
+	transition: 1s;
+ }
+}
+
+@media (min-width: 1100px) {
+	h2 {
+	transition: 1s;
+ }
+	body {
+	transition: 1s;
+ }
+}
+
+/* --- Menu --- */
+
+.SlideP {
+	margin-right: 30px;
+	margin-left: 30px;
+	padding-left: -20px;
+	padding-top: 20px;
+	margin-bottom: 50px;
+	padding-bottom: 50px;
+	border: solid;
+	margin-top: 100px;
+	font-size: 20px;
+}
+
+.MLogo {
+	font-family: 'Bungee', cursive;
+	color: black;
+	border-radius: 0px 40px 10px 0px;
+	border-style: solid; 
+	height: 120px;
+	width: 120px;
+	padding-top: none;
+	padding-bottom: none;
+	padding-left: none;
+	padding-right: none;
+}
+
+.HChicken {	
+
+	margin-left: px;
+	border-radius: 40px 40px 40px 40px;
+	border-style: ridge; 
+	padding-top: none;
+	margin-top: 0px;
+	width: 100px;
+	height: 100px;
+}
+
+.HMenu {
+	margin-bottom: 0px;
+	padding-right: 20px;
+	font-size: 18px;
+	border-style: solid;
+	scroll-behavior: auto;
+	padding-left: 10px;
+	margin-top: 0px;
+	padding-top: 0px;
+	overflow-y: hidden;
+	line-height: 300%;
+	margin-top: 0px;
+	width: 320px;
+	height: 700px;
+	overflow: scroll;
+	background: url("Photos/PPhoto.jpg");
+}
+
+.HSteak {
+	border-radius: 40px 40px 40px 40px;
+	border-style: ridge; 
+	width: 100px;
+	height: 100px;
+}
+
+.HShrimp {
+	border-radius: 40px 40px 40px 40px;
+	border-style: ridge; 
+	border-color: ;
+	width:	100px;
+	height: 100px;
+}
+
+.FMignon {
+	border-radius: 40px 40px 40px 40px;
+	border-style: ridge; 
+	width: 100px;
+	height: 100px;
+}
+
+.HScallop {
+	border-radius: 40px 40px 40px 40px;
+	border-style: ridge; 
+	width: 100px;
+	height: 100px;
+}
+
+.HSalmon {
+	border-radius: 40px 40px 40px 40px;
+	border-style: ridge; 
+	width: 100px;
+	height: 100px;
+}
+
+.SNC {
+	border-radius: 40px 40px 40px 40px;
+	border-style: ridge; 
+	width: 100px;
+	height: 100px;
+}
+
+.SNS {
+	border-radius: 40px 40px 40px 40px;
+	border-style: ridge; 
+	width: 100px;
+	height: 100px;
+}
+
+.Combos {
+	background-color: gray;
+	border-radius: 40px 40px 40px 40px;
+	border-style: ridge; 
+	width: 100px;
+	height: 100px;
+}
+
+.CNS {
+	background-color: gray;
+	border-radius: 40px 40px 40px 40px;
+	border-style: ridge; 
+	width: 100px;
+	height: 100px;
+}
+
+
+.Map {
+	font-family: 'Bungee', cursive;
+	text-decoration: none;
+	color: #000;
+	background: center;
+	background-size: 150%;
+	background-repeat: no-repeat;
+	background-image: url("Photos/MapP.png");
+	text-align: center;
+	cursor: pointer;
+	border: black;
+	border-radius: 40px;
+	border-style: solid; 
+	margin-top: 100px;
+	height: 230px;
+	width: 230px;
+	margin-bottom: 0px;
+	margin-left: -30px;
+	font-size: 30px;
+	padding-top: 2px
+}
+
+.Map:hover {
+cursor: pointer;
+}
+
+.SpecialM {
+	
+	float: right;
+	padding-left: 20px;
+	margin-top: 0px;
+	padding-top: 0px;
+	overflow-y: hidden;
+	line-height: 50px;
+	margin-bottom: -120px;
+	width: 800px;;
+	height: 700x;
+	background: url("Photos/PPhoto.jpg");
+}
+
+.SpecialM {
+	margin-right: 100px;
+	line-height: 20px;
+	border-style: solid;
+	margin-left: -50px;
+	padding-left: 100px;
+	font-size: 19px;
+	padding-top: 60px;
+}
+
+.SpecialI {
+	
+	display: ;
+	background-color: ;
+	border-style: none;
+	padding-right: 30px;
+	padding-left: 10px;
+	margin-right: -45px;
+	margin-left: -90px;
+}
+
+
+
+.MainPhoto {
+	border-style: solid;
+	transition: 2s;
+	float: initial;
+	overflow: hidden;
+	text-align: center;
+	margin-top: 139px;
+	 margin-left: 430px;
+	height: 500px;
+	width: 650px;
+  
+}
+
+.CInfo {
+	border-right: 1px 1px 50px 1px;
+	margin-right: -10px;
+	font-family: 'Bungee', cursive;
+	color: #800000;
+	border-color: #000;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	margin-top: -30px;
+	line-height: 15px;
+	font-size: 15px;
+}
+
+.MenuBord {
+	margin-top: 20px;
+	margin-right: -10px;
+	border-left: -100px;
+	border-style: solid;
+	border-bottom: 40px;
+	
+}
+
+.MMenu {
+	font-size: 15px;
+	box-shadow: 5px 5px 1px #000;
+	font-family: 'Bungee', cursive;
+	height: 30px;
+	width: 250px;
+	background-color: #696969;
+	color: black; 
+	padding-bottom: -20px;
+	margin-left: 80px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: -30px;
+	margin-bottom: 20px;
+}
+
+.MMenu:hover{
+ 	transition: 0.8s;
+	color: red;
+
+}
+
+@media screen only and (min-width: 1598px){    
+  
+}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px){
+
+ body {
+   padding-right: -50px;	
+ }
+ h2 {
+   color: #fff;
+   line-height: 50px;
+   font-size: 50px;
+   padding-top: 50px;	
+   margin-bottom: 0px;	
+ }
+ .HMenu { 
+   display: none; 
+ } 
+ .PhotoDiv { 
+   display: none; 
+ }
+ .Test55 {
+   display: none;
+ }
+ .ContactP { 
+   display: none; 
+ }
+ .MLogo {
+   display: none;
+ }	
+}
+
+
+
+.sidenav {
+    height: 50%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align:center;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+
+}
+
+.sidenav a:hover{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.skip_Submit {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 300px;
+	height: 20px;
+}
+
+#SubmitB {
+	border-style: outset;
+	text-decoration: none;
+	height: 20px;
+	margin-left: 70px;
+	margin-right: 80px;
+	padding-left: 30px;
+	padding-right: 30px;
+	color: black;
+	background-color: green;
+	
+}
+#SubmitB:hover {
+	background-color: #1E90FF;
+}
+
+#SubmitB:active {
+	background-color: blue;
+}
+
+
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+@media screen and (max-width: 1614px){
+
+	.SpecialM {
+		margin-right: 500px;
+		margin-left: 500px;
+		width: 600px;
+		transition: width 2s;
+ }
+}
+
+@media screen and (min-width: 1614px){
+
+	.SpecialM {
+		transition: width 1s;
+ }
+}
+
+#map {
+	margin-bottom: 63px;
+	border-style: solid;
+	text-align: center;
+	float: right;
+        height: 500px;
+         margin-top: -570px;
+	margin-right: 360px;
+	margin-left: -500px;
+    	width: 600px;
+       }
+
+.Direction {
+	font-size: ;
+	background: url("Photos/PPhoto.jpg");
+	padding-left: 10px;
+	border-style: solid;
+	background-color: green;
+	width: 300px;
+	height: 500px;
+	float: right;
+	line-height: 50px;
+	margin-right: 30px;
+	margin-left: 30px;
+	margin-bottom: 30px;
+	margin-top: -570px;
+}
+
+.greetings {
+	font-size: 30px;
+	color: black;
+	
+}
+
+
+.FootI {
+	font-size: 10px;
+	margin-top: 20px;
+	line-height: 4px;
+
+}
+
